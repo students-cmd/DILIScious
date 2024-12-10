@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Burger Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <h1>DILIScious</h1>
+  </header>
+
+  <div class="sidebar">
+    <div class="logo-section">
+      <img src="logo.jpg" alt="Logo" class="logo-image"> 
+      <h2>DILIScious</h2>
+    </div>
+    <ul>
+      <li><a href="#service" class="nav-link">Service</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section id="service">
+      <div class="product-container">
+        <img src="product.jpg" alt="Product 1" class="product-image">
+        <img src="product.jpg" alt="Product 2" class="product-image">
+        <img src="product.jpg" alt="Product 3" class="product-image">
+      </div>
+    </section>
+    <section id="about">
+     
+      <div class="about-container">
+        <div class="about-box">
+          <h3>Ingredients</h3>
+          <p>Bolinao (Anchovy) Fish, Rice Flour, Salt, Pepper, Vegetable Oil, Seasoning (may include spices such as garlic powder, onion powder).</p>
+        </div>
+        <div class="about-box">
+          <h3>Description</h3>
+          <p>DILIScious is a savory, crispy snack made from freshly caught bolinaw (anchovy) fish, carefully seasoned and prepared to deliver a delicious, crunchy bite. Perfect for snacking anytime or as an addition to meals, this tasty treat is crafted with high-quality ingredients and a focus on flavor.</p>
+        </div>
+        <div class="about-box">
+          <h3>Storage</h3>
+          <p>Store in a cool, dry place. Once opened, keep sealed to maintain freshness.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-details">
+       
+        <a href="https://facebook.com" target="_blank" class="facebook-link">
+          <img src="R (2).png" alt="Facebook" class="social-icon">
+        </a>
+         <p>DILIScious.com</p>
+      </div>
+    </section>
+    
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
